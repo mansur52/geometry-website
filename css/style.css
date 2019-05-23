@@ -1,0 +1,108 @@
+body {
+    background:#000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div,p,a,img,form,button{
+    box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 60px;
+}
+.header{
+
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+   /* border:1px white solid;*/
+}
+.nun{
+    width: 100px;
+    margin:40px;
+    float: left;
+}
+.nav {
+    margin-top:42px;
+}
+.menu{
+    display:flex;
+    margin: 15px 15px;
+}
+.menu li{
+    font-size: 12px;
+    margin-right: 25px;
+}
+.menu li a{
+    color:#fff;
+    padding: 13px 0;
+}
+.menu li.active a,
+.menu li a:hover {
+    color:#f6d967;
+    border-top: 1px solid #f6d967;
+    border-bottom: 1px solid #f6d967;
+}
+.logo{
+    width: 150px;
+    float:left;
+}
+.Phone{
+    float:right;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top:-90px;
+    transition: all 0.3s ease;
+}
+.Phone:hover{
+    font-size: 20px;
+}
+.offer-content{
+    padding:20px;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+.offer-content h1{
+    font-size:40px;
+    font-weight: 900;
+}
+.offer-content p{
+    font-size:16px;
+    font-weight: 200;
+    margin-top: 19px;
+}
+.offer-content a{
+    background: #faf04b;
+    color:#000;
+    font-size:14px;
+    font-weight: 900;
+    width: 218px;
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+    transition:all 0.3s ease;
+    margin-top:35px;
+}
+.offer-content a:hover{
+    background:#eccb2e;
+}
+.triangles{
+    background:url("../img/s3.png");
+    width:9000px;
+    height:582px;
+    margin-left: auto;
+}
